@@ -1,0 +1,12 @@
+@mixin icon($width, $height) {
+  display: block;
+  width: $width;
+  height: $height;
+  background-size: $width;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.test-icon {
+  background-image: url("/assets/icons/test.png");
+}

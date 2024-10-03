@@ -1,0 +1,7 @@
+@import "icons";
+
+.icons {
+  i {
+    @include icon(25px, 25px);
+  }
+}
